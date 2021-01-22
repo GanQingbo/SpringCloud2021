@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example.cloud</groupId>
-    <artifactId>cloud-provider-payment8001</artifactId>
+    <artifactId>cloud-consumer-order80</artifactId>
 
     <dependencies>
         <dependency>
@@ -58,6 +58,4 @@
             <version>1.18.10</version>
         </dependency>
     </dependencies>
-
-
 </project>
