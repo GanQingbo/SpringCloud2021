@@ -13,6 +13,7 @@
     <artifactId>cloud-consumer-order80</artifactId>
 
     <dependencies>
+        <!--Eureka中已经整合了Ribbon-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
