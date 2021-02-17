@@ -70,6 +70,10 @@ public class PaymentController {
         return this.discoveryClient;
     }
 
+    @GetMapping("/payment/lb")
+    public String getPaymentLB(){
+        return serverPort;
+    }
     //超时测试
     @GetMapping("/payment/feign/timeout")
     public String paymentFeignTimeout(){
@@ -79,5 +83,9 @@ public class PaymentController {
             e.printStackTrace();
         }
         return serverPort;
+    }
+    @GetMapping("/payment/zipkin")
+    public String paymentZipkin(){
+        return "*************Zipkin Server fall back!";
     }
 }
